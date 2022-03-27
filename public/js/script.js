@@ -9,7 +9,7 @@ function httpGet(url) {
 
 // Start Typer function
 function startTyping() {
-    var response = httpGet("")
+    var response = httpGet("https://artemis-bot.redstoneradiant.repl.co/api")
     var coolstuff = response.split(" ")
     var discmem = coolstuff[1]
     var stargzr = coolstuff[0]
