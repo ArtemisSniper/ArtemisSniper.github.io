@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/smintf/autolingo/blob/master/LICENSE/">
-    <img src="https://img.shields.io/badge/license-MIT-black">
+    <img src="https://img.shields.io/badge/license-MIT-blue">
   </a>
   <a href="https://github.com/TheRedstoneRadiant/Artemis-Website/deployments/activity_log?environment=Production">
       <img src="https://img.shields.io/github/deployments/TheRedstoneRadiant/Artemis-Website/production?label=deployment">
@@ -24,4 +24,4 @@ This is the [website](https://art2.cf) for the [Artemis Sniper](https://github.c
 
 ### Can i skid this?
 
-Ask one of the cool contributors of this repo.
+Ask one of the [cool contributors](https://github.com/TheRedstoneRadiant/Artemis-Website/graphs/contributors) of this repo.
