@@ -24,4 +24,4 @@ This is the [website](https://art2.cf) for the [Artemis Sniper](https://github.c
 
 ### Can i skid this?
 
-Ask one of the [cool contributors](https://github.com/TheRedstoneRadiant/Artemis-Website/graphs/contributors) of this repo.
+Yeah, just ask one of the [cool contributors](https://github.com/TheRedstoneRadiant/Artemis-Website/graphs/contributors) of this repo first.
