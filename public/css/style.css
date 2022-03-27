@@ -65,7 +65,7 @@ body {
 }
 
 .banner > h2 {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 40px;
     margin-top: -10px;
     margin-bottom: 20px;
@@ -101,6 +101,7 @@ body {
     opacity: 0.7;
     text-align: center;
     transition: 1s all;
+    font-weight: 400;
 }
 
 .sylestic:hover,
