@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/TheRedstoneRadiant/Artemis-Website/"><img src="https://raw.githubusercontent.com/TheRedstoneRadiant/Artemis-Website/master/favicon/icon.png" width=128 height=128 alt="logo"></a>
+  <a href="https://github.com/TheRedstoneRadiant/Artemis-Website/"><img src="https://raw.githubusercontent.com/TheRedstoneRadiant/Artemis-Website/master/public/favicon/icon.png" width=128 height=128 alt="logo"></a>
   <br>
   Artemis Website
   <br>
