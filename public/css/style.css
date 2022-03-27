@@ -113,9 +113,8 @@ body {
     border: 2px solid #888a8c;
 }
 
-.sylestic:hover > a,
-.everest:hover > a {
-    text-decoration: unset;
+.developers > a:hover {
+    text-decoration: none;
 }
 
 .card-layout {
