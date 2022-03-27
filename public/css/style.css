@@ -124,13 +124,18 @@ body {
 
 .card {
     padding: 20px;
-    background-color: #202428;
+    background-color: rgba(32, 36, 40, 0.8);
     width: 340px;
     height: 135px;
     border-radius: 10px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    transition: 0.8s all;
+}
+
+.card:hover {
+    background-color: rgba(32, 36, 40, 1);
 }
 
 .card > h1 {
