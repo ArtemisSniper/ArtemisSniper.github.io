@@ -113,6 +113,11 @@ body {
     border: 2px solid #888a8c;
 }
 
+.sylestic:hover > a,
+.everest:hover > a {
+    text-decoration: unset;
+}
+
 .card-layout {
     margin-top: 300px;
     display: flex;
