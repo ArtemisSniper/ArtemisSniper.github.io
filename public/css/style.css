@@ -44,7 +44,6 @@ body {
 }
 
 .download > a > button {
-    margin-bottom: 20px;
     border: unset;
     background-color: unset;
     border: 2px solid #888a8c;
