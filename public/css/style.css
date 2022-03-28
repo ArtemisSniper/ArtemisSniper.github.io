@@ -179,16 +179,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.container {
-    color: transparent;
-}
-
 .smint {
-    display: none;
-  }	
-
-.container:hover + .change {
-    display: block;
     color: #8f8f8f;
     justify-content: right;
-}
+  }	
