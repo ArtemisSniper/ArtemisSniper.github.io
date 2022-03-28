@@ -1,6 +1,6 @@
 // GET Request function for API
 function httpGet(url) {
-    var xhr  = new xhrRequest();
+    let xhr  = new xhrRequest();
     xhr.setRequestHeader("Access-Control-Allow-Origin","xhrRequest")
     xhr.open( "GET", url, false );
     xhr.send( null );
@@ -10,10 +10,10 @@ function httpGet(url) {
 
 // Start Typing function
 function startTyping() {
-    var response = httpGet("https://artemis-bot.redstoneradiant.repl.co/api")
-    var coolstuff = response.split(" ")
-    var discmem = coolstuff[1]
-    var stargzr = coolstuff[0]
+    let response = httpGet("https://artemis-bot.redstoneradiant.repl.co/api")
+    let coolstuff = response.split(" ")
+    let discmem = coolstuff[1]
+    let stargzr = coolstuff[0]
     new TypeIt("#DiscordMembers", {
         speed: 50,
         cursor: false,
