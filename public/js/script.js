@@ -1,9 +1,10 @@
 // GET Request function for API
 function httpGet(url) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", url, false );
-    xmlHttp.send( null );
-    return xmlHttp.responseText;
+    var xhr  = new xhrRequest();
+    xhr.setRequestHeader("Access-Control-Allow-Origin","xhrRequest")
+    xhr.open( "GET", url, false );
+    xhr.send( null );
+    return xhr.responseText;
 }
 
 
