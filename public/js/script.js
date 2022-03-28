@@ -7,7 +7,7 @@ function httpGet(url) {
 }
 
 
-// Start Typer function
+// Start Typing function
 function startTyping() {
     var response = httpGet("https://artemis-bot.redstoneradiant.repl.co/api")
     var coolstuff = response.split(" ")
@@ -15,12 +15,19 @@ function startTyping() {
     var stargzr = coolstuff[0]
     new TypeIt("#DiscordMembers", {
         speed: 50,
+        cursor: false,
     })
       .type(discmem, { delay: 1200 })
       .go()
     new TypeIt("#Stargazers", {
         speed: 50,
+        cursor: false,
     })
       .type(stargzr, { delay: 1200 })
       .go()
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+//    startTyping();
+    console.log("this works!")
+});
