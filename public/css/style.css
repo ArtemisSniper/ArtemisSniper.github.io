@@ -47,7 +47,7 @@ body {
     max-width: 670px;
 }
 
-.download > a > button {
+.download>a>button {
     border: unset;
     background-color: unset;
     border: 2px solid #888a8c;
@@ -58,20 +58,20 @@ body {
     transition: 0.4s all;
 }
 
-.download > a > button:hover,
-.download > a > button:focus {
+.download>a>button:hover,
+.download>a>button:focus {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.banner > h2 {
+.banner>h2 {
     font-weight: 500;
     font-size: 40px;
     margin-top: -10px;
     margin-bottom: 20px;
 }
 
-.banner > hr {
+.banner>hr {
     width: 100%;
 }
 
@@ -110,14 +110,14 @@ body {
     cursor: pointer;
 }
 
-.sylestic > img,
-.everest > img {
+.sylestic>img,
+.everest>img {
     height: 150px;
     border-radius: 100px;
     border: 2px solid #888a8c;
 }
 
-.developers > a:hover {
+.developers>a:hover {
     text-decoration: none;
 }
 
@@ -146,11 +146,11 @@ body {
     background-color: rgba(32, 36, 40, 1);
 }
 
-.card > h1 {
+.card>h1 {
     margin: 0;
 }
 
-.card > p {
+.card>p {
     line-height: 28.6px;
     letter-spacing: -0.26px;
     color: #d0d4d8;
@@ -166,7 +166,7 @@ footer {
     justify-content: center;
     position: sticky;
     height: 100px;
-    top: calc( 100vh - 59px );
+    top: calc(100vh - 59px);
 }
 
 a {
@@ -182,4 +182,4 @@ a:hover {
 .smint {
     color: #8f8f8f;
     justify-content: right;
-  }	
+}
