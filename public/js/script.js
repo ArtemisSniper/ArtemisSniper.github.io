@@ -1,4 +1,4 @@
-// GET Request function for API
+// GET Request function for API, Gets the response and returns it.
 function httpGet(url) {
     let xhr = new xhrRequest();
     xhr.setRequestHeader("Access-Control-Allow-Origin", "xhrRequest")
@@ -8,7 +8,7 @@ function httpGet(url) {
 }
 
 
-// Start Typing function
+// Start Typing function, Calls httpGet to get data from the API and sets up TypeIts' to type in the specified elements.
 function startTyping() {
     let response = httpGet("https://artemis-bot.redstoneradiant.repl.co/api")
     let coolstuff = response.split(" ")
@@ -28,6 +28,7 @@ function startTyping() {
         .go()
 }
 
+// Event Listener which executes startTyping function when DOM Content finishes getting loaded.
 document.addEventListener('DOMContentLoaded', function() {
     //    startTyping();
     console.log("this works!")
